@@ -48,4 +48,22 @@ public class CalculatorService implements Calculable {
 		return dividend / divisor;
 	}
 
+	@Override
+	public double sum(double portion1, double portion2) throws DivisionByZeroArithymeticException, SOAPException {
+		// TODO Auto-generated method stub
+		return portion1 + portion2;
+	}
+
+	@Override
+	public double sub(double minuend, double subtraend) throws DivisionByZeroArithymeticException, SOAPException {
+		// TODO Auto-generated method stub
+		return minuend - subtraend;
+	}
+
+	@Override
+	public double mul(double multiplicand, double multiplier) throws DivisionByZeroArithymeticException, SOAPException {
+		// TODO Auto-generated method stub
+		return multiplicand * multiplier;
+	}
+
 }
